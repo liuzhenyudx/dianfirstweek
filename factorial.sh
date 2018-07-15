@@ -10,6 +10,7 @@ func(){
     func $[$middle-1]
     fi
 }
+#输出usage信息
 if [ $# -ne 1 ]
 then echo -e "usage: factorial.sh [n] \n calculate a number's factorial "
 else
